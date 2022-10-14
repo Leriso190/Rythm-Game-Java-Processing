@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainClasses.GameEngineTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-02T14:47:14" hostname="nikolai-Latitude-E5250" time="0.187">
+  <properties/>
+  <testcase name="checkStreakCounter()" classname="MainClasses.GameEngineTest" time="0.041"/>
+  <testcase name="setLifePoints()" classname="MainClasses.GameEngineTest" time="0.009"/>
+  <testcase name="initialiseAllBallColumns()" classname="MainClasses.GameEngineTest" time="0.037"/>
+  <testcase name="setUpDifficulty()" classname="MainClasses.GameEngineTest" time="0.006"/>
+  <testcase name="checkIfGameOver()" classname="MainClasses.GameEngineTest" time="0.037"/>
+  <testcase name="moveBalls()" classname="MainClasses.GameEngineTest" time="0.038"/>
+  <testcase name="getColumnList()" classname="MainClasses.GameEngineTest" time="0.003"/>
+  <testcase name="resetGame()" classname="MainClasses.GameEngineTest" time="0.004"/>
+  <system-out><![CDATA[Genaue Treffer geben 20 Punkte bei einer Serie von 25 Hits
+Ungenaue Treffer geben 10 Punkte bei einer Serie von 25 Hits
+Genaue Treffer geben 10 Punkte bei einer Serie von <25 Hits
+Ungenaue Treffer geben 5 Punkte bei einer Serie von <25 Hits
+LifePoints sind immer unter 100 Punkten
+LifePoints sind bei gesetzten Werten ueber 100 Punkten genau auf 100 Punkte gesetzt
+LifePoints koennen nicht unter 0 Punkte werden
+Jede Reihe auf dem Spielfeld zeigt keine Baelle an
+Auf keiner Position auf dem Spielfeld befindet sich ein Ball
+Jede Reihe kann 8 Baelle enthalten und anzeigen
+ [ballsCol1=[(0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false)]
+, ballsCol2=[(0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false)]
+, ballsCol3=[(0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false)]
+, ballsCol4=[(0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false), (0.0,false)]
+
+Streak: 0
+Streak: 0
+Die Geschwindigkeit erhoeht sich bei einer Punkteschwelle von 1000
+Die Geschwindigkeit pro 1000er Punkteschwelle erhöht sich um den Wert 1
+Das Spiel ist im Gange
+Das Spiel ist vorbei
+Lebenspunkte sind auf 0
+Punktezahl aendert sich nicht mehr
+Die erste Position im Positionsraster wird um 1 (Pixel) erhoeht
+[1.0, 101.0, 201.0, 301.0, 401.0, 501.0, 601.0, 701.0]
+Die zweite Position im Positionsraster wird um 1 (Pixel) erhoeht
+ [ballsCol1=[(21.0,false), (121.0,false), (221.0,false), (321.0,false), (421.0,false), (521.0,false), (621.0,false), (721.0,false)]
+, ballsCol2=[(21.0,false), (121.0,false), (221.0,false), (321.0,false), (421.0,false), (521.0,false), (621.0,false), (721.0,false)]
+, ballsCol3=[(21.0,false), (121.0,false), (221.0,false), (321.0,false), (421.0,false), (521.0,false), (621.0,false), (721.0,false)]
+, ballsCol4=[(21.0,false), (121.0,false), (221.0,false), (321.0,false), (421.0,false), (521.0,false), (621.0,false), (721.0,false)]
+
+Der Ball wird um 120 Pixel nach unten verschoben und in die naechste Position des Positionsrasters verschoben
+ [ballsCol1=[(51.0,false), (151.0,false), (251.0,false), (351.0,false), (451.0,false), (551.0,false), (651.0,false), (751.0,false)]
+, ballsCol2=[(51.0,true), (151.0,false), (251.0,false), (351.0,false), (451.0,false), (551.0,false), (651.0,false), (751.0,false)]
+, ballsCol3=[(51.0,false), (151.0,false), (251.0,false), (351.0,false), (451.0,false), (551.0,false), (651.0,false), (751.0,false)]
+, ballsCol4=[(51.0,false), (151.0,false), (251.0,false), (351.0,false), (451.0,false), (551.0,false), (651.0,false), (751.0,false)]
+
+Der Ball wird um 130 Pixel nach unten verschoben und in die naechste Position des Positionsrasters verschoben
+Der Ball hat sich durch das Erhoehen um 130 um eine Position verschoben
+1. Auf der letzten Position sind alle Baelle geloescht, egal ob getroffen oder nicht
+2. Auf der letzten Position sind alle Baelle geloescht, egal ob getroffen oder nicht
+ [ballsCol1=[(51.0,false), (151.0,false), (251.0,false), (351.0,true), (451.0,false), (551.0,false), (651.0,true), (751.0,false)]
+, ballsCol2=[(51.0,false), (151.0,false), (251.0,false), (351.0,false), (451.0,true), (551.0,true), (651.0,false), (751.0,false)]
+, ballsCol3=[(51.0,false), (151.0,true), (251.0,false), (351.0,false), (451.0,true), (551.0,false), (651.0,false), (751.0,false)]
+, ballsCol4=[(51.0,false), (151.0,false), (251.0,false), (351.0,false), (451.0,false), (551.0,true), (651.0,false), (751.0,false)]
+
+Die Position im pos-array entspricht der des jeweiligen Ball-Objektes in der columnList
+Streak: 0
+Kein Ball wird mehr angezeigt
+Alle Positionen in der columnList sind auf 0 gesetzt
+Der Score ist auf 0 gesetzt
+Die LifePoints sind wieder vollkommen hergestellt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
