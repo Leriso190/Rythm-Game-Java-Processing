@@ -1,6 +1,6 @@
-# Hit the Ball (PIS SoSe 20211)
+# Hit the Ball (PIS SoSe 2021)
 
-Autor: Nikolai Reimelt, Matrikelnummer: 5027318
+Autor: Nikolai Reimelt
 
 ## Kurzbeschreibung
 
@@ -9,7 +9,7 @@ In diesem Spiel geht es darum, die herunterschnellenden Bälle in dem Moment per
 Ziel des Spiels ist es, möglichst viele Punkte zu sammeln, bevor der Lebenspunktebalken komplett rot ist. Im Spiel werden besonders akkurate Treffer mit mehr Punkten belohnt als weniger akkurate. Drückt man eine Taste, ohne einen Treffer zu erzielen oder kommt der Ball zum unteren Spielfeldende, ohne getroffen worden zu sein, werden Lebenspunkte abgezogen. Wenn man viele Bälle hintereinander ohne Fehler trifft, wird dies mit dem Verdoppeln der Punkte beim Treffen belohnt. Beim Erreichen bestimmter Punkteschwellen wird die Geschwindigkeit und zum Teil auch die Anzahl der herunterschnellenden Bälle nach und nach erhöht, was den Schwierigkeitsgrad erhöht. Als Ausgleich werden aber auch Lebenspunkte wieder hergestellt. (142 Wörter)
 
 ## Screenshot
-![Screenshot](app\src\main\resources\ScreenshotAnwendung.png)
+![Screenshot](app/src/main/resources/ScreenshotAnwendung.png)
 
 ## Bedienungshinweise
 
